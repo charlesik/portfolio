@@ -59,20 +59,20 @@ function Projects(){
           imgUrl: projImg6,
         },
       ];
-      const projectList = projects.map((project)=>{
-        return <div className="w-80  bg-white text-black h-96 rounded-lg m-10">
+      const projectList = projects.map((project,index)=>{
+        return <div className="md:border-2 md:border-black w-80  bg-white text-black h-96 rounded-lg m-5 lg:m-10" key={index}>
             <div><img className=" h-72 rounded-t-lg" src={project.imgUrl}/></div>
-            <div className="pl-7">
+            <div className="pl-7 pt-4">
                 <p>{project.title}</p>
                 <p>{project.description}</p>
             </div>
             </div>
       })
       return(
-        <div className="mt-8">
-        <p className=" ml-12 text-gray-500">- PROJECTS</p>
-        <h1 className="text-pur text-4xl mb-10 ml-12">Featured Works</h1>
-        <div className="projects flex flex-wrap justify-around overflow-scroll ">
+        <div className="mt-8 text-center">
+        <p className=" lg:ml-12 text-gray-500">- PROJECTS</p>
+        <h1 className="text-pur text-4xl lg:mb-10 lg:ml-12">Featured Works</h1>
+        <div className="  projects flex flex-wrap justify-around overflow-scroll ">
         {projectList}
         </div>
         

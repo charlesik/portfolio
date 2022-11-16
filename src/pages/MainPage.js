@@ -2,6 +2,7 @@ import NavBar from "../components/NavBar";
 import Intro from "../components/Intro";
 import Projects from "../components/Projects";
 import Form from "../components/Form";
+import Footer from "../components/Footer";
 
 function MainPage() {
   return (
@@ -10,6 +11,7 @@ function MainPage() {
       <Intro />
       <Projects />
       <Form/>
+      <Footer/>
     </div>
   );
 }
