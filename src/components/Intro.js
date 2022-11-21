@@ -1,4 +1,6 @@
 import head from "../projectshots/110.png";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons'
 
 function Intro(){
     return(
@@ -12,7 +14,9 @@ function Intro(){
             Creative front-end developer with more than +2 years of experience
             in enterprise companies and startups. Proficient in Html, Tailwind
             Css, Javascript and React.
-          </p>
+          </p><br/>
+          <a href="https://github.com/charlesik"><FontAwesomeIcon icon={faGithub}/> </a>
+          <a href="https://www.linkedin.com/in/ikechukwu-ilo-820879218"><FontAwesomeIcon icon={faLinkedin}/> </a>
         </div>
         <div className="w-1/2 pl-44 hidden lg:block ">
             <img src={head} className='h-80'/>
