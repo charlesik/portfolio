@@ -5,7 +5,7 @@ function Form(){
         <form className=" lg:m-auto  mb-20 lg:w-1/2 " action="https://formsubmit.co/charlesikilo@gmail.com" method="POST">
             <input type='text' className="my-2 w-full h-10" placeholder="Name" name="name" required/> <br/>
             <input type='email' className="my-2 w-full h-10"  placeholder="Email" name="email" required/><br/>
-            <input type='textarea' className="my-2 w-full h-20"  placeholder="Your Message" name="message" required/><br/>
+            <input type='textarea' className="my-2 w-full h-20 text-black"  placeholder="Your Message" name="message" required/><br/>
             <button className="bg-pur w-full h-10">Send Message</button>
 
         </form>
