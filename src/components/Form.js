@@ -7,7 +7,6 @@ function Form(){
             <input type='email' className="my-2 w-full h-10"  placeholder="Email" name="email" required/><br/>
             <input type='text' className="my-2 w-full h-40 text-black"  placeholder="Your Message" name="message" required/><br/>
             <input type="hidden" name="_captcha" value="false"></input>
-            <input type="hidden" name="_next" value="https://charlesik.netlify.app/"></input>
             <button className="bg-pur w-full h-10">Send Message</button>
 
         </form>
