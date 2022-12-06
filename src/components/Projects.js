@@ -57,14 +57,14 @@ function Projects(){
           description: "Non-Profit Organisation",
           imgUrl: projImg8,
           link: 'https://natashailofoundation.org',
-          tech: 'Javascript'
+          tech: 'Wordpress'
         },
         {
           title: "Ada Oji River",
           description: "On Air Personality",
           imgUrl: projImg9,
           link: 'https://adaojiriver.org',
-          tech: 'Javascript'
+          tech: 'Wordpress'
         },
         {
           title: "Fyurr",
