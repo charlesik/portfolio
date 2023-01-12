@@ -8,6 +8,9 @@ import projImg7 from "../projectshots/techfirm.png";
 import projImg8 from "../projectshots/NGO.png";
 import projImg9 from "../projectshots/OAP.png";
 import projImg10 from "../projectshots/form.png";
+import projImg11 from "../projectshots/waves.png";
+import projImg12 from "../projectshots/movies.png";
+import projImg13 from "../projectshots/gojek.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faLink } from '@fortawesome/free-solid-svg-icons'
 
@@ -18,11 +21,32 @@ import {faLink } from '@fortawesome/free-solid-svg-icons'
 function Projects(){
     const projects = [
       {
+        title: "Waves DAO",
+        description: "Crypto Medium",
+        imgUrl: projImg11,
+        link: 'https://wave-daos.vercel.app/',
+        tech: 'Next JS'
+      },
+      {
+        title: "TestApp",
+        description: "Movies Data",
+        imgUrl: projImg12,
+        link: 'https://charelestestapp.netlify.app/',
+        tech: 'Next JS'
+      },
+      {
         title: "Hermes Delivery",
         description: "Courier Services",
         imgUrl: projImg4,
         link: 'https://hermesdemo.netlify.app/',
         tech: 'JavaScript'
+      },
+      {
+        title: "Gojek",
+        description: "Online Services",
+        imgUrl: projImg13,
+        link: 'https://gojek-wine.vercel.app/',
+        tech: 'React'
       },
         {
           title: "VulcanTech NG",

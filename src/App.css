@@ -1,3 +1,6 @@
 .projects{
     height: 1000px;
 }
+.projects::-webkit-scrollbar{
+display: none;
+}
