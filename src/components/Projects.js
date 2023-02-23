@@ -2,7 +2,7 @@ import projImg1 from "../projectshots/fyurr.jpg";
 import projImg2 from "../projectshots/coffeeshop.png";
 import projImg3 from "../projectshots/foodcafe.png";
 import projImg4 from "../projectshots/hermes.png";
-import projImg5 from "../projectshots/lawfirm.png";
+import projImg5 from "../projectshots/merce.png";
 import projImg6 from "../projectshots/trivia.gif";
 import projImg7 from "../projectshots/techfirm.png";
 import projImg8 from "../projectshots/NGO.png";
@@ -21,6 +21,13 @@ import {faLink } from '@fortawesome/free-solid-svg-icons'
 function Projects(){
     const projects = [
       {
+        title: "Merce Store",
+        description: "Online Store UI",
+        imgUrl: projImg5,
+        link: 'https://mercestore.netlify.app/',
+        tech: 'ReactJS'
+      },
+      {
         title: "Waves DAO",
         description: "Crypto Medium",
         imgUrl: projImg11,
@@ -32,7 +39,7 @@ function Projects(){
         description: "Movies Data",
         imgUrl: projImg12,
         link: 'https://charelestestapp.netlify.app/',
-        tech: 'Next JS'
+        tech: 'ReactJS'
       },
       {
         title: "Hermes Delivery",
@@ -46,7 +53,7 @@ function Projects(){
         description: "Online Services",
         imgUrl: projImg13,
         link: 'https://gojek-wine.vercel.app/',
-        tech: 'React'
+        tech: 'ReactJS'
       },
         {
           title: "VulcanTech NG",
@@ -60,22 +67,16 @@ function Projects(){
           description: "React Form",
           imgUrl: projImg10,
           link: 'https://mysignupduru.netlify.app/',
-          tech: 'React'
+          tech: 'ReactJS'
         },
         {
           title: "Food Cafe",
           description: "Restaurant Mockup",
           imgUrl: projImg3,
           link: 'https://github.com/charlesik/food-cafe-react-js-.git',
-          tech: 'React'
+          tech: 'ReactJS'
         },
-        {
-          title: "Law Firm",
-          description: "Advocacy mock up",
-          imgUrl: projImg5,
-          link: 'https://whispertask.netlify.app/',
-          tech: 'Javascript'
-        },
+        
         {
           title: "Natasha Ilo Foundation",
           description: "Non-Profit Organisation",
