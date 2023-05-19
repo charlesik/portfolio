@@ -48,13 +48,13 @@ function Projects(){
         link: 'https://hermesdemo.netlify.app/',
         tech: 'JavaScript'
       },
-      {
-        title: "Gojek",
-        description: "Online Services",
-        imgUrl: projImg13,
-        link: 'https://gojek-wine.vercel.app/',
-        tech: 'ReactJS'
-      },
+      // {
+      //   title: "Gojek",
+      //   description: "Online Services",
+      //   imgUrl: projImg13,
+      //   link: 'https://gojek-wine.vercel.app/',
+      //   tech: 'ReactJS'
+      // },
         {
           title: "VulcanTech NG",
           description: "Mockup For StartUp",
@@ -77,41 +77,41 @@ function Projects(){
           tech: 'ReactJS'
         },
         
-        {
-          title: "Natasha Ilo Foundation",
-          description: "Non-Profit Organisation",
-          imgUrl: projImg8,
-          link: 'https://natashailofoundation.org',
-          tech: 'Wordpress'
-        },
-        {
-          title: "Ada Oji River",
-          description: "On Air Personality",
-          imgUrl: projImg9,
-          link: 'https://adaojiriver.org',
-          tech: 'Wordpress'
-        },
-        {
-          title: "Fyurr",
-          description: "Artist & Venue Booking  ",
-          imgUrl: projImg1,
-          link: 'https://github.com/charlesik/fyyur-project.git',
-          tech: 'React, Flask'
-        },
-        {
-          title: "Coffeeshop",
-          description: "Fullstack API",
-          imgUrl: projImg2,
-          link: 'https://github.com/charlesik/Coffee-Shop-Fullstack-API.git',
-          tech: 'React, Flask'
-        },
-        {
-          title: "Trivia API",
-          description: "Game",
-          imgUrl: projImg6,
-          link: 'https://github.com/charlesik/Trivia-API.git',
-          tech: 'React, Flask'
-        },
+        // {
+        //   title: "Natasha Ilo Foundation",
+        //   description: "Non-Profit Organisation",
+        //   imgUrl: projImg8,
+        //   link: 'https://natashailofoundation.org',
+        //   tech: 'Wordpress'
+        // },
+        // {
+        //   title: "Ada Oji River",
+        //   description: "On Air Personality",
+        //   imgUrl: projImg9,
+        //   link: 'https://adaojiriver.org',
+        //   tech: 'Wordpress'
+        // },
+        // {
+        //   title: "Fyurr",
+        //   description: "Artist & Venue Booking  ",
+        //   imgUrl: projImg1,
+        //   link: 'https://github.com/charlesik/fyyur-project.git',
+        //   tech: 'React, Flask'
+        // },
+        // {
+        //   title: "Coffeeshop",
+        //   description: "Fullstack API",
+        //   imgUrl: projImg2,
+        //   link: 'https://github.com/charlesik/Coffee-Shop-Fullstack-API.git',
+        //   tech: 'React, Flask'
+        // },
+        // {
+        //   title: "Trivia API",
+        //   description: "Game",
+        //   imgUrl: projImg6,
+        //   link: 'https://github.com/charlesik/Trivia-API.git',
+        //   tech: 'React, Flask'
+        // },
       ];
       const projectList = projects.map((project,index)=>{
         return <div className=" w-80  bg-white text-black h-96 rounded-lg m-5 lg:m-10" key={index}>
