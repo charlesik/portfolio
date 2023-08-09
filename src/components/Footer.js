@@ -7,7 +7,7 @@ function Footer(){
         <div className="text-center text-gray-500">
             
             <a href="https://github.com/charlesik" ><FontAwesomeIcon icon={faGithub}/> </a>
-          <a href="https://www.linkedin.com/in/ikechukwu-ilo-820879218"><FontAwesomeIcon icon={faLinkedin}/> </a>
+          <a href="https://www.linkedin.com/in/charles-ilo-820879218/"><FontAwesomeIcon icon={faLinkedin}/> </a>
           <p>&copy; {year} Charles Ilo </p>
         </div>
     )

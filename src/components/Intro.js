@@ -16,7 +16,7 @@ function Intro(){
             Css, Javascript and React.
           </p><br/>
           <a href="https://github.com/charlesik"><FontAwesomeIcon icon={faGithub}/> </a>
-          <a href="https://www.linkedin.com/in/ikechukwu-ilo-820879218"><FontAwesomeIcon icon={faLinkedin}/> </a>
+          <a href="https://www.linkedin.com/in/charles-ilo-820879218/"><FontAwesomeIcon icon={faLinkedin}/> </a>
         </div>
         <div className="w-1/2 pl-44 hidden lg:block ">
             <img src={head} className='h-80'/>
