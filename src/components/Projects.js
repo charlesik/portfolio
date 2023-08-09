@@ -62,28 +62,28 @@ function Projects(){
           link: 'https://vulcantechng.netlify.app/',
           tech: 'JavaScript'
         },
-        {
-          title: "Registration Form",
-          description: "React Form",
-          imgUrl: projImg10,
-          link: 'https://mysignupduru.netlify.app/',
-          tech: 'ReactJS'
-        },
-        {
-          title: "Food Cafe",
-          description: "Restaurant Mockup",
-          imgUrl: projImg3,
-          link: 'https://github.com/charlesik/food-cafe-react-js-.git',
-          tech: 'ReactJS'
-        },
-        
         // {
-        //   title: "Natasha Ilo Foundation",
-        //   description: "Non-Profit Organisation",
-        //   imgUrl: projImg8,
-        //   link: 'https://natashailofoundation.org',
-        //   tech: 'Wordpress'
+        //   title: "Registration Form",
+        //   description: "React Form",
+        //   imgUrl: projImg10,
+        //   link: 'https://mysignupduru.netlify.app/',
+        //   tech: 'ReactJS'
         // },
+        // {
+        //   title: "Food Cafe",
+        //   description: "Restaurant Mockup",
+        //   imgUrl: projImg3,
+        //   link: 'https://github.com/charlesik/food-cafe-react-js-.git',
+        //   tech: 'ReactJS'
+        // },
+        
+        {
+          title: "Natasha Ilo Foundation",
+          description: "Non-Profit Organisation",
+          imgUrl: projImg8,
+          link: 'https://natashailofoundation.org',
+          tech: 'Wordpress'
+        },
         // {
         //   title: "Ada Oji River",
         //   description: "On Air Personality",
