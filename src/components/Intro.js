@@ -11,7 +11,7 @@ function Intro(){
             Charles <span className="text-pur">Ilo</span>
           </h2>
           <p className="text-center lg:text-left">
-            Creative front-end developer with more than +2 years of experience
+            Creative front-end developer with more than 3 years of experience
             in enterprise companies and startups. Proficient in Html, Tailwind
             Css, Javascript and React.
           </p><br/>
